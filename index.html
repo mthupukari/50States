@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess the 50 States</title>
+    <link rel="stylesheet" href="50-states-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="header">
+        50 STATES GAME
+      </h1>
+
+      <div id="welcome">
+        <h3>Instructions:</h3>
+        <p>
+          You have <strong>5 minutes</strong> to type in all 50 states of the
+          United States of America.
+        </p>
+        <p>
+          After 5 minutes you will see which states you got right and which
+          states you missed.
+        </p>
+        <p>
+          Click start to begin! GOOD LUCK!
+          
+        </p>
+
+        <div id="start">
+          <button id="startButton">START</button>
+        </div>
+      </div>
+
+      <div id="game">
+        <button id="restartButton" class="restart">Restart</button><br />
+
+        <div class="input-wrapper"><input type="text" id="input" autocomplete="off" /></div>
+        <div class="scoring-wrapper">
+          <div>Score: <span id="count">0</span>/50</div>
+          <div>Timer:<span id="timer">5:00</span></div>
+        </div>
+
+        <table id="statesTable">
+          <tr></tr>
+          <span id="outcome"> </span>
+          
+        </table>
+
+      </div>
+    </div>
+
+    <script src="50-states-design.js"></script>
+  </body>
+</html>

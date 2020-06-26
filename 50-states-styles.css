@@ -1,0 +1,107 @@
+
+button {
+    background-color: lightgreen;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button.restart {
+    background-color: darkred;
+    color: white;
+    width: auto;
+    float: right;
+    font-size: 17px;
+
+}
+
+
+#welcome{
+    border: 1px solid black;
+    padding: 0.5em;
+    
+}
+
+h3{
+    margin-top: 0.5em;
+    margin-bottom: auto;
+    
+}
+
+#start{
+    text-align: center;
+}
+
+#startButton{
+    font-size: 21px;
+    margin-bottom: 0.5em;
+}
+
+
+#input{
+    font-size: 30px;
+}
+
+#statesTable {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+td{
+    margin: 1em;
+    font-size: 17px;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#correct{
+    background-color:lightgreen;
+}
+
+#wrong{
+    background-color: darkred;
+    color: white
+}
+
+
+#game {
+    display: none;
+}
+
+#info{
+    position: relative;
+    left:395px;
+}
+
+#infoTimer{
+    position:relative;
+    left: 350px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    text-align: center;
+}
+
+.input-wrapper input {
+   width: 100%; 
+}
+
+.scoring-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#outcome{
+    margin-top: 10px;
+}
